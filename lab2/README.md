@@ -11,3 +11,10 @@
    -*The Simplify Button* *---> Button that changes the text in real-time, displaying a simpler version of a given amendment to the user*
    
    -Site hosted through Github Pages via this link: *https://bonjour-itws.github.io/lab2/*
+   
+   
+   
+   
+  My contributions:
+  
+ I wrote all the summaries for the Articles and the Amendments and created a branch dedicated to providing a collapsible drop down for the summary to be displayed. 
