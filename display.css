@@ -1,0 +1,15 @@
+table {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid silver;
+    width: 500px;
+  }
+ 
+  th {
+    text-align: left;
+  }
+ 
+  button+button {
+    margin-left: 15px;
+  }
+ 
