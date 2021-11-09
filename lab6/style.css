@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 225px;
+}
+form {
+    display: inline-block;
+}
