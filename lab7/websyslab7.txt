@@ -1,0 +1,65 @@
+===Database websyslab7
+
+== Table structure for table courses
+
+|------
+|Column|Type|Null|Default
+|------
+|//**crn**//|int(11)|No|
+|prefix|varchar(4)|No|
+|number|smallint(4)|No|
+|title|varchar(255)|No|
+|section|varchar(255)|Yes|NULL
+|year|int(4)|Yes|NULL
+== Dumping data for table courses
+
+|60068|CSCI|1200|Data Structures|2|2022
+|61121|CSCI|4400|Software Design and Documentation|1|2022
+|63148|ITWS|1100|Introduction to ITWS|2|2022
+|65054|ITWS|4130|Managing IT Resources|1|2022
+== Table structure for table grades
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|crn|int(11)|Yes|NULL
+|RIN|int(9)|Yes|NULL
+|grade|int(3)|Yes|NULL
+== Dumping data for table grades
+
+|1|60068|112354968|98
+|2|61121|112354968|88
+|3|60068|123456789|100
+|4|63148|123456789|100
+|5|65054|321456789|67
+|6|63148|321456789|80
+|7|65054|445583920|47
+|8|61121|445583920|30
+|9|65054|661996025|95
+|10|61121|661996025|89
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**RIN**//|int(9)|No|
+|RCSID|char(7)|No|
+|name|varchar(100)|No|
+|lastname|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(255)|Yes|NULL
+|city|varchar(255)|Yes|NULL
+|state|varchar(255)|Yes|NULL
+|zip|int(5)|Yes|NULL
+== Dumping data for table students
+
+|112364968|htoiu89|Chicken|Nugget|SO|2147483647|8 Union Rd|Queens|NY|11678
+|123456789|ba0bn94|Divya|Bachina|SR|2147483647|78 Union Union Rd|Brooklyn|NY|19830
+|321459789|suem8y5|Div|Bac|JR|2147483647|67 Union Union Rd|Midgar|FL|19283
+|449083920|dyhiyr4|Di|Bhina|FR|2147483647|890 Union Union Rd|Hyrule|OH|12093
+|661996025|89vjnk3|Divy|Houes|SO|2147483647|23 Union Union Rd|Rosedale|NY|11413
+
+
+In this lab, I spent a significant amount of time researching the various potential SQL commands. It took a while to get the function working and the html file only currently works for courses. If I had more time, I would've been able to create more pages for the modifications of various tables.

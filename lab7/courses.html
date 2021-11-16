@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Gradebook</title>
+</head>
+<body>
+    <h1>Gradebook</h1>
+    <h2>Adding Courses</h2>
+    <form method="post" action="courses.php">
+        <div class="form-group">
+                <label for="inputEmail4">Title</label>
+                <input type="title" class="form-control" name="inputTitle" id="inputTitle" placeholder="Title">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="inputCity">CRN</label>
+                <input type="text" class="form-control" name="inputCRN">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputCity">Prefix</label>
+                <input type="text" class="form-control" name="inputPrefix">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">Number</label>
+                <input type="text" class="form-control" name="inputNumber">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">Section</label>
+                <input type="text" class="form-control" name="inputSection">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputZip">Year</label>
+                <input type="text" class="form-control" name="inputYear">
+            </div>
+        </div>
+        <div class="form-group">
+        </div>
+        <button type="submit" class="btn btn-primary">Add Course</button>
+    </form>
+
+    
+</body>
+</html>
