@@ -29,3 +29,6 @@ this code above and it kept breaking.
 Because I need the foreign key to work in order for it not to break and so that I can join the tables, I instead did a join within the php query where I set the item ids equal to each others so that it may blend together.
 
 In addition, I thought it may be easier for the user to be able to add additional item values and discounts into the table so I created an additional items.html, items.php. I had intended to also create a discounts.html and a discounts.php but unfortunately I had run out of time.
+
+
+My final solution is similar to one fo the previous labs and utilizes buttons and SQLs queries to formulate a possible ansawer.
