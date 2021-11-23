@@ -1,0 +1,1 @@
+In this lab, I spent a great deal of time attempting to configure the JSON input to the nav bar in addition to attempting to create a menu config using javascript. I used two php files, home.php and index.php to help define the php and sql background. In addition, I used the sql on the backend.
