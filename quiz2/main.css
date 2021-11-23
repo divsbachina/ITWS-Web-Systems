@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+h2 {
+  display: inline;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.mid{
+  justify-content: center;
+}
